@@ -1,0 +1,16 @@
+﻿int x1,y1,z1,x2,y2,z2;
+double range;
+System.Console.WriteLine("x1= ");
+x1=Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("x2= ");
+x2=Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("y1= ");
+y1=Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("y2= ");
+y2=Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("z1= ");
+z1=Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("z2= ");
+z2=Convert.ToInt32(Console.ReadLine());
+range=Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2)+Math.Pow(z2-z1,2));
+System.Console.WriteLine(Math.Round(range,2));
